@@ -32,7 +32,7 @@ def main():
     mount, unmount, manual = st.tabs(["Mount server", "Unmount server", "User manual"])
 
     # Read config file
-    config_path = r"config.yaml"
+    config_path = "config.yaml"
     config = readConfig(config_path)
 
     # Validate config file
@@ -43,7 +43,7 @@ def main():
     servers = list(config.keys())
 
     with manual:
-        readme_path = r"README.md"
+        readme_path = os.path.join("docs", "MANUAL.md")
         try:
             with open(readme_path, "r", encoding="utf-8") as file:
                 readme = file.read()
