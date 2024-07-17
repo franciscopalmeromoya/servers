@@ -1,0 +1,10 @@
+TU Delft:
+  domain: sftp.tudelft.nl
+  remote_path: /staff-groups/tnw/bn/nd/
+  local_path: /mnt/TUDelft/
+
+Oxford:
+  domain: winfe.physics.ox.ac.uk
+  remote_path: /dfs/DAQ/CondensedMatterGroups/DekkerGroup/
+  local_path: /mnt/Oxford/
+
