@@ -48,7 +48,7 @@ To run the app, navigate to the project directory and use the following command:
 streamlit run app.py
 ```
 
-This will start the Streamlit server and open the app in your default web browser. If it doesn't open automatically, you can navigate to `http://localhost:8501` in your browser.
+This will start the Streamlit server and open the app in your default web browser. If it doesn't open automatically, you can navigate to `http://localhost:8503` in your browser.
 
 ## Configuration
 
@@ -60,7 +60,7 @@ The app allows you to configure multiple SFTP servers. Here’s how you can set 
 
 ## Screenshots
 
-Include some screenshots of the app interface to give users a visual idea of the application.
+![alt text](docs/screenshot.png)
 
 ## Troubleshooting
 
